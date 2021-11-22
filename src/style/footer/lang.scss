@@ -1,0 +1,26 @@
+.lang {
+}
+.lang__list {
+  display: flex;
+}
+.lang__item {
+  & + &::before{
+    content: '|';
+    color: var(--text-white);
+    padding: 0 10px;
+  }
+  &:hover{
+    .lang__link{
+      color: var(--text-yellow);
+    }
+  }
+}
+.lang__link {  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;  
+  line-height: 200%;
+  color: var(--text-white);
+  text-transform: uppercase;
+  transition: color 0.4s;
+}

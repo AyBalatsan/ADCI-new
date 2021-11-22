@@ -1,0 +1,41 @@
+mixin preview
+  section.preview
+      .fog
+      .preview__wrapper
+        h1.visually-hidden This is the best furniture
+        .swiper.preview__swiper
+          ul.swiper-wrapper.preview__list
+            li.swiper-slide.preview__item 
+              .preview__shell(style="background: url(images/content/bg2.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center;")
+                .preview__description 
+                  h2.preview__title Lampadari contemporanei
+                  p.preview__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore 
+            li.swiper-slide.preview__item 
+              .preview__shell(style="background: url(images/content/bg0.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;")
+                .preview__description 
+                  h2.preview__title Lampadari contemporanei
+                  p.preview__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore 
+            li.swiper-slide.preview__item 
+              .preview__shell(style="background: url(images/content/bg3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;")
+                .preview__description 
+                  h2.preview__title Lampadari contemporanei
+                  p.preview__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore 
+          .swiper-paginations.preview__paginations
+        .preview__bottom-list.js-shell-list
+          button.open-list.js-toggle-list
+            img(src="images/icon/preview-button.png", alt="arr").open-list__img
+          ul.inform-block
+            li.inform-block__item.inform-block__item--color-first
+              h3.inform-block__title Stai pensando ad un progetto?
+              p.inform-block__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+              a.inform-block__link.inform-block__link--acolor(href='#') Approfondisci
+            li.inform-block__item.inform-block__item--color-second
+              h3.inform-block__title Vi aspettiamo alla fiera Euroluce
+              p.inform-block__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+              a.inform-block__link(href='#') Approfondisci
+            li.inform-block__item.inform-block__item--color-third
+              h3.inform-block__title Scopri la nuova collezione
+              p.inform-block__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+              a.inform-block__link.inform-block__link--color(href='#') Approfondisci
+
+          

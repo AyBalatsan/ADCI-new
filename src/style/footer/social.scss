@@ -1,0 +1,27 @@
+.social {
+}
+.social__list {
+  display: flex;
+  gap: 0 10px;
+}
+.social__item {
+  &:hover{
+    .social__icon{
+      fill: var(--bgc-yellow);
+    }
+  }
+}
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  & path{
+    transition: fill 0.4s;
+  }
+}
+.social__icon{
+  transition: fill 0.4s;
+}

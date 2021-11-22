@@ -1,0 +1,68 @@
+mixin footer
+  footer.page-footer
+    .container
+      .page-footer__wrapper
+        .other-information
+          ul.other-information__list
+            li.other-information__item
+              h3.other-information__title Lampadari made in italy
+              p.other-information__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            li.other-information__item
+              h3.other-information__title Lampadari artigianali
+              p.other-information__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            li.other-information__item
+              h3.other-information__title 45 anni di esperienza
+              p.other-information__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        .newsletter
+            form.form-default(action='#')
+              h3.form-default__title NEWSLETTER
+              input.form-default__data(type='text' name='nick-news' placeholder='Nome e Cognome')
+              input.form-default__data(type='email' name='Email-news' placeholder='Email')
+              .form-default__block-box
+                label.form-default__checkbox-desc(for='agreement-field') Acconsento al trattamento dei dati
+                  input#agreement-field.form-default__checkbox(type='checkbox' name='agreement')
+              input.form-default__button(type='submit' value='Iscriviti')
+        .block-links
+          ul.block-links__list
+            li.block-links__item
+              a(href="#").block-links__link MMLAMPADARI srl
+            li.block-links__item
+              a(href="#").block-links__link Via Feltrina 00
+            li.block-links__item
+              a(href="#").block-links__link 31111 Pederobba (TV)
+            li.block-links__item
+              a(href="#").block-links__link 0423.123456
+            li.block-links__item
+              a(href="mailto:info@mmlampadari.mm").block-links__link info@mmlampadari.mm
+            li.block-links__item
+              a(href="#").block-links__link P.IVA 04123456789
+        .page-footer__social-lang
+            .social
+              ul.social__list
+                li.social__item
+                  a.social__link(href='#')
+                    svg(xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewbox='0 0 682.66669 682.66669' style='enable-background:new 0 0 512 512' xml:space='preserve')
+                      g
+                        path(xmlns='http://www.w3.org/2000/svg' d='m604.671875 0h-569.375c-19.496094.0117188-35.30078125 15.824219-35.296875 35.328125v569.375c.0117188 19.496094 15.824219 35.300781 35.328125 35.296875h306.546875v-247.5h-83.125v-96.875h83.125v-71.292969c0-82.675781 50.472656-127.675781 124.222656-127.675781 35.324219 0 65.679688 2.632812 74.527344 3.808594v86.410156h-50.855469c-40.125 0-47.894531 19.066406-47.894531 47.050781v61.699219h95.9375l-12.5 96.875h-83.4375v247.5h162.796875c19.507813.003906 35.324219-15.804688 35.328125-35.3125 0-.003906 0-.007812 0-.015625v-569.375c-.007812-19.496094-15.824219-35.30078125-35.328125-35.296875zm0 0' fill='#ffffff' data-original='#000000' style='').social__icon
+                li.social__item
+                  a.social__link(href='#')
+                    svg(xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewbox='0 0 97.395 97.395' style='enable-background:new 0 0 512 512' xml:space='preserve')
+                      g
+                        g(xmlns='http://www.w3.org/2000/svg')
+                          path(d='M12.501,0h72.393c6.875,0,12.5,5.09,12.5,12.5v72.395c0,7.41-5.625,12.5-12.5,12.5H12.501C5.624,97.395,0,92.305,0,84.895   V12.5C0,5.09,5.624,0,12.501,0L12.501,0z M70.948,10.821c-2.412,0-4.383,1.972-4.383,4.385v10.495c0,2.412,1.971,4.385,4.383,4.385   h11.008c2.412,0,4.385-1.973,4.385-4.385V15.206c0-2.413-1.973-4.385-4.385-4.385H70.948L70.948,10.821z M86.387,41.188h-8.572   c0.811,2.648,1.25,5.453,1.25,8.355c0,16.2-13.556,29.332-30.275,29.332c-16.718,0-30.272-13.132-30.272-29.332   c0-2.904,0.438-5.708,1.25-8.355h-8.945v41.141c0,2.129,1.742,3.872,3.872,3.872h67.822c2.13,0,3.872-1.742,3.872-3.872V41.188   H86.387z M48.789,29.533c-10.802,0-19.56,8.485-19.56,18.953c0,10.468,8.758,18.953,19.56,18.953   c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z' fill='#ffffff' data-original='#000000' style='').social__icon
+                li.social__item
+                  a.social__link(href='#')
+                    svg(xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewbox='0 0 97.672 97.672' style='enable-background:new 0 0 512 512' xml:space='preserve')
+                      g
+                        g(xmlns='http://www.w3.org/2000/svg')
+                          path(d='M51.125,0C24.469,0,11.029,19.11,11.029,35.047c0,9.649,3.653,18.232,11.487,21.432c1.286,0.525,2.438,0.019,2.812-1.403   c0.258-0.985,0.871-3.468,1.144-4.503c0.376-1.407,0.229-1.9-0.807-3.126c-2.259-2.665-3.703-6.115-3.703-11.002   c0-14.178,10.608-26.87,27.624-26.87c15.064,0,23.342,9.206,23.342,21.5c0,16.176-7.159,29.828-17.786,29.828   c-5.87,0-10.262-4.854-8.854-10.807c1.686-7.107,4.951-14.778,4.951-19.907c0-4.592-2.463-8.423-7.565-8.423   c-6,0-10.819,6.207-10.819,14.521c0,5.296,1.789,8.878,1.789,8.878s-6.141,26.015-7.215,30.571   c-2.145,9.072-0.322,20.195-0.168,21.318c0.089,0.666,0.944,0.824,1.332,0.322c0.555-0.723,7.7-9.544,10.129-18.359   c0.687-2.496,3.944-15.42,3.944-15.42c1.95,3.717,7.647,6.992,13.706,6.992c18.034,0,30.271-16.441,30.271-38.45   C86.644,15.498,72.547,0,51.125,0z' fill='#ffffff' data-original='#000000' style='').social__icon
+            .lang
+              ul.lang__list
+                li.lang__item
+                  a.lang__link(href='#') ita
+                li.lang__item
+                  a.lang__link(href='#') eng
+                li.lang__item
+                  a.lang__link(href='#') deu
+                li.lang__item
+                  a.lang__link(href='#') pyc

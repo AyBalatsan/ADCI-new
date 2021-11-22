@@ -1,0 +1,27 @@
+mixin popup
+  .popup
+    h2.popup__title AREA RISERVATA 
+    button.popup__close.js-popup-close
+      img(src="images/icon/popup-close.png", alt="close")
+    .popup__shell
+      .popup__accedi
+        form.form-default(action='#')
+          h3.form-default__title.form-default__title--big-size ACCEDI
+          input.form-default__data(type='email' name='email-field' placeholder='Email')
+          input.form-default__data(type='password' name='password-field' placeholder='Password')
+          input.form-default__button.form-default__button--margin-top(type='submit' value='ACCEDI')
+          a(href="#").form-default__link-remember Password dimenticata
+      .popup__registrati
+        form.form-default(action='#')
+          h3.form-default__title.form-default__title--big-size REGISTRATI
+          input.form-default__data(type='text' name='name-reg-field' placeholder='Nome')
+          input.form-default__data(type='text' name='surname-reg-field' placeholder='Cognome')
+          input.form-default__data(type='email' name='email-reg-field' placeholder='Email')        
+          input.form-default__data(type='password' name='password-reg-field' placeholder='Password')
+          .form-default__block-box
+            label.form-default__checkbox-desc(for='agreement-reg-field') Acconsento al trattamento dei dati
+              input#agreement-reg-field.form-default__checkbox(type='checkbox' name='agreement')
+            label.form-default__checkbox-desc(for='message-reg-field') Mi iscrivo alla Newsletter
+              input#message-reg-field.form-default__checkbox(type='checkbox' name='agreement')
+          input.form-default__button(type='submit' value='Iscriviti')
+    

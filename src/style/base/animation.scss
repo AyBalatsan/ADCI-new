@@ -1,0 +1,170 @@
+@keyframes smoothAscent {
+  0%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+// .pen{
+//     &:hover{
+//         .pen__wrapper{
+//             animation: transformPen 0.8s ease;
+//         }
+//     }
+//     &__wrapper{
+//         transform-origin: 50%;
+//     }
+// }
+// .arm{
+//     &:hover{
+//         .arm__finger{
+//             animation:arm 0.8s ease;
+//         } 
+//     }
+//     &__finger{
+//         transform-origin: 106px 28px;
+//     }
+// }
+// .disabled{
+//     .disabled__face{}
+//     .disabled__arm{
+//         transform-origin: 39px 51px;
+//     }
+//     &:hover{
+//         .disabled__arm{
+//             animation: transformDisabled 1s ease;
+//         }
+//     }    
+// }
+// .title-block__wrapper{
+
+//     .fist{
+//       animation: transition_colors3 3s ease infinite;
+//     }
+  
+//     .second{
+  
+//       animation: transition_colors2 3s ease infinite;
+//     }
+  
+//     .three{
+  
+//       animation: transition_colors1 3s ease infinite;
+//     }
+    
+//   }
+  
+  
+//   @keyframes transition_colors1 {
+//     0%{
+//       fill:#026167;
+//     }
+//     50%{
+//     fill:#56C69E;
+      
+//     }
+//     75%{
+//     fill:#D8E1E0
+//   }
+//   100%{
+//     fill:#026167
+//   }
+  
+//   }
+  
+//   @keyframes transition_colors2 {
+//     0%{
+//       fill:#D8E1E0;
+//     }
+//     50%{
+//     fill:#026167;
+      
+//     }
+//     75%{
+//     fill:#56C69E
+//   }
+  
+//   100%{
+//     fill:#D8E1E0
+//   }
+  
+//   }
+  
+  
+//   @keyframes transition_colors3 {
+//     0%{
+//       fill:#56C69E;
+//     }
+//     50%{
+//     fill:#D8E1E0;
+      
+//     }
+//     75%{
+//       fill:#026167
+//     }
+  
+//     100%{
+//     fill:#56C69E
+//   }
+//   }
+  
+  
+//   .decore{
+//     z-index: 2;
+//     @media screen and (max-width: 1500px) {display: none;}
+//   }
+// // .associations-item{
+// //     &:hover{
+// //         .associations-item__svg{
+// //             animation: associations 2s ease;
+// //         }
+// //     }
+// //     .associations-item__svg{
+// //         transform-origin: 50%;
+// //     }
+// // }
+// // .collectives__item--actor{
+// //     .img-actor{
+// //         transform: translateX(calc(5.2px + 0.67vw));
+// //     }
+// //     .buben{
+// //         path{
+// //             transition: fill 0.4s;
+// //         }         
+// //     }
+// //     &:hover{
+// //         .buben__1{fill: #257CFF;}
+// //         .buben__3{fill: #2590FF;}
+// //         .buben__4{fill: #2574FF;}
+// //         .buben__5{fill: #255AFF;}
+// //         .buben__6{fill: #253EFF;}
+// //         .buben__7{fill: #2554FF;}
+// //     }   
+// // }
+
+// // @keyframes associations {
+// //     0%{transform: rotate(0);}
+// //     100%{transform: rotate(720deg);}
+// // }
+// @keyframes arm {
+//     0%{transform: rotate(0);}
+//     50%{transform: rotate(15deg);}
+//     100%{transform: rotate(0);}
+// }
+
+// @keyframes transformDisabled {
+//     0%{transform: rotate(0deg);}
+//     33%{transform: rotate(10deg);}
+//     67%{transform: rotate(-10deg);}
+//     100%{transform: rotate(0deg);}
+// }
+// @keyframes transformPen {
+//     0%{transform: rotate(0);}
+//     33%{transform: rotate(-3deg);}
+//     66%{transform: rotate(1deg);}
+//     100%{transform: rotate(0);}
+// }

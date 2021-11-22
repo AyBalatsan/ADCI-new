@@ -1,0 +1,29 @@
+// base
+// @import "./base/fonts";
+@import "./base/default";
+@import "./base/animation.scss";
+@import "./base/color";
+
+//header
+@import "./header/page-header.scss";
+@import "./header/navigation.scss";
+@import "./header/down-menu.scss";
+
+//footer
+@import "./footer/page-footer.scss";
+@import "./footer/other-information.scss";
+@import "./footer/newsletter.scss";
+@import "./footer/block-links.scss";
+@import "./footer/social.scss";
+@import "./footer/lang.scss";
+
+//blocks
+@import "./blocks/popup.scss";
+
+//preview
+@import "./preview/preview.scss";
+@import "./preview/open-list.scss";
+@import "./preview/inform-block.scss";
+//mixin
+@import "./mixin/swiper.scss";
+@import "./mixin/form-default.scss";
